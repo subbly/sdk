@@ -2,7 +2,7 @@ server {
     listen       *:80;
 
     server_name  www.subbly-shop.dev subbly-shop.dev;
-    root         /var/www/subbly-shop.dev;
+    root         /var/www/apps/subbly-shop.dev;
 
     access_log   /var/log/nginx/subbly-shop.dev.access.log;
     error_log    /var/log/nginx/subbly-shop.dev.error.log;
